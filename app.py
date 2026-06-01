@@ -23,7 +23,7 @@ app = Flask(__name__)
 FREEFIRE_UPDATE_URL = "https://clientbp.ggblueshark.com/UpdateSocialBasicInfo"
 MAJOR_LOGIN_URL = "https://loginbp.ggblueshark.com/MajorLogin"
 OAUTH_URL = "https://100067.connect.garena.com/oauth/guest/token/grant"
-FREEFIRE_VERSION = "OB53"
+FREEFIRE_VERSION = "OB54"
 
 KEY = bytes([89, 103, 38, 116, 99, 37, 68, 69, 117, 104, 54, 37, 90, 99, 94, 56])
 IV = bytes([54, 111, 121, 90, 68, 114, 50, 50, 69, 51, 121, 99, 104, 106, 77, 37])
@@ -141,7 +141,7 @@ def perform_major_login(access_token, open_id):
             game_data.timestamp = "2024-12-05 18:15:32"
             game_data.game_name = "free fire"
             game_data.game_version = 1
-            game_data.version_code = "1.123.1"
+            game_data.version_code = "1.108.3"
             game_data.os_info = "Android OS 9 / API-28 (PI/rel.cjw.20220518.114133)"
             game_data.device_type = "Handheld"
             game_data.network_provider = "Verizon Wireless"
